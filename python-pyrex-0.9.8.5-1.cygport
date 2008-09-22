@@ -1,0 +1,8 @@
+inherit distutils
+
+DESCRIPTION="Python extension language"
+HOMEPAGE="http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/"
+SRC_URI="http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/Pyrex-${PV}.tar.gz"
+SRC_DIR="Pyrex-${PV}"
+
+HTMLDOCS="Doc/*"
