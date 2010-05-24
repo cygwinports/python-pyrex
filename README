@@ -4,11 +4,11 @@ Pyrex lets you write code that mixes Python and C data types any way you
 want, and compiles it into a C extension for Python. 
 
 Runtime requirements:
-  python-2.5.2-3
+  python-2.6.5-1
 
 Build requirements:
-  cygport-0.4.0-1
-  python-2.5.2-3
+  cygport-0.9.84-1
+  python-2.6.5-1
 
 Canonical homepage:
   http://nz.cosc.canterbury.ac.nz/~greg/python/Pyrex/
@@ -28,165 +28,13 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/bin/pyrexc
-  /usr/lib/python2.5/site-packages/Pyrex-0.9.8.5-py2.5.egg-info
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Builtin.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Builtin.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Builtin.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/CmdLine.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/CmdLine.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/CmdLine.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Code.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Code.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Code.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/DebugFlags.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/DebugFlags.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/DebugFlags.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Errors.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Errors.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Errors.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/ExprNodes.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/ExprNodes.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/ExprNodes.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Lexicon.pickle
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Lexicon.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Lexicon.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Lexicon.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Main.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Main.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Main.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/ModuleNode.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/ModuleNode.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/ModuleNode.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Naming.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Naming.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Naming.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Nodes.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Nodes.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Nodes.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Options.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Options.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Options.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Parsing.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Parsing.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Parsing.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/PyrexTypes.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/PyrexTypes.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/PyrexTypes.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Scanning.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Scanning.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Scanning.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Symtab.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Symtab.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Symtab.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/TypeSlots.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/TypeSlots.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/TypeSlots.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Version.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Version.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/Version.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/__init__.py
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/__init__.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Compiler/__init__.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Debugging.py
-  /usr/lib/python2.5/site-packages/Pyrex/Debugging.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Debugging.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Distutils/__init__.py
-  /usr/lib/python2.5/site-packages/Pyrex/Distutils/__init__.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Distutils/__init__.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Distutils/build_ext.py
-  /usr/lib/python2.5/site-packages/Pyrex/Distutils/build_ext.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Distutils/build_ext.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Distutils/extension.py
-  /usr/lib/python2.5/site-packages/Pyrex/Distutils/extension.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Distutils/extension.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/DistutilsOld/__init__.py
-  /usr/lib/python2.5/site-packages/Pyrex/DistutilsOld/__init__.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/DistutilsOld/__init__.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/DistutilsOld/build_ext.py
-  /usr/lib/python2.5/site-packages/Pyrex/DistutilsOld/build_ext.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/DistutilsOld/build_ext.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Mac/DarwinSystem.py
-  /usr/lib/python2.5/site-packages/Pyrex/Mac/DarwinSystem.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Mac/DarwinSystem.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Mac/MacSystem.py
-  /usr/lib/python2.5/site-packages/Pyrex/Mac/MacSystem.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Mac/MacSystem.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Mac/MacUtils.py
-  /usr/lib/python2.5/site-packages/Pyrex/Mac/MacUtils.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Mac/MacUtils.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Mac/TS_Misc_Suite.py
-  /usr/lib/python2.5/site-packages/Pyrex/Mac/TS_Misc_Suite.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Mac/TS_Misc_Suite.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Mac/__init__.py
-  /usr/lib/python2.5/site-packages/Pyrex/Mac/__init__.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Mac/__init__.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Mac/setup.py
-  /usr/lib/python2.5/site-packages/Pyrex/Mac/setup.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Mac/setup.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Actions.py
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Actions.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Actions.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/DFA.py
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/DFA.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/DFA.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Errors.py
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Errors.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Errors.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Lexicons.py
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Lexicons.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Lexicons.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Machines.py
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Machines.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Machines.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Regexps.py
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Regexps.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Regexps.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Scanners.py
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Scanners.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Scanners.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Timing.py
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Timing.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Timing.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Traditional.py
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Traditional.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Traditional.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Transitions.py
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Transitions.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/Transitions.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/__init__.py
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/__init__.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/__init__.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/test_tm.py
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/test_tm.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Plex/test_tm.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Unix/LinuxSystem.py
-  /usr/lib/python2.5/site-packages/Pyrex/Unix/LinuxSystem.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Unix/LinuxSystem.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Unix/__init__.py
-  /usr/lib/python2.5/site-packages/Pyrex/Unix/__init__.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Unix/__init__.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/Utils.py
-  /usr/lib/python2.5/site-packages/Pyrex/Utils.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/Utils.pyo
-  /usr/lib/python2.5/site-packages/Pyrex/__init__.py
-  /usr/lib/python2.5/site-packages/Pyrex/__init__.pyc
-  /usr/lib/python2.5/site-packages/Pyrex/__init__.pyo
-  /usr/share/doc/python-pyrex-0.9.8.5/Changes.txt
-  /usr/share/doc/python-pyrex-0.9.8.5/INSTALL.txt
-  /usr/share/doc/python-pyrex-0.9.8.5/README.txt
-  /usr/share/doc/python-pyrex-0.9.8.5/TODO.txt
-  /usr/share/doc/python-pyrex-0.9.8.5/html/About.html
-  /usr/share/doc/python-pyrex-0.9.8.5/html/FAQ.html
-  /usr/share/doc/python-pyrex-0.9.8.5/html/LanguageOverview.html
-  /usr/share/doc/python-pyrex-0.9.8.5/html/index.html
-  /usr/share/doc/python-pyrex-0.9.8.5/html/primes.c
-
-------------------
-
 Port Notes:
+
+----- version 0.9.9-2 -----
+Rebuilt for Python 2.6.
+
+----- version 0.9.9-1 -----
+Version bump.
 
 ----- version 0.9.8.6-1 -----
 Version bump.
