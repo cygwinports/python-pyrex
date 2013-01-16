@@ -1,0 +1,14 @@
+inherit distutils
+
+NAME="python-pyrex"
+VERSION=0.9.9
+RELEASE=3
+CATEGORY="Python"
+SUMMARY="Python extension language"
+DESCRIPTION="Pyrex lets you write code that mixes Python and C data types any
+way you want, and compiles it into a C extension for Python."
+HOMEPAGE="http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/"
+SRC_URI="http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/Pyrex-${PV}.tar.gz"
+SRC_DIR="Pyrex-${PV}"
+
+HTMLDOCS="Doc/*"
